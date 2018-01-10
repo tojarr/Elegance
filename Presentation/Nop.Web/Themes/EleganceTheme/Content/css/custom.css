@@ -86,6 +86,33 @@ a:hover,
     font-weight: bold;
 }
 
+.header-phone {
+    height: 80px;
+    margin:auto 80px;
+    float: left;
+}
+
+.number-call {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 700;
+    /*background-color:#000;*/
+    color: #dcdbdb;
+    position: relative;
+    top: 25px;
+}
+
+a:hover span.number-call {
+    display: block;
+    /*margin: 10px auto;*/
+    /*background-color: #88a1ff;*/
+    color: #dcdbdb;
+    position: relative;
+    top: 25px;
+    text-decoration: underline;
+}
+
 @media(min-width:1001px) {
     .header-selectors-wrapper {
         margin-left: 286px;
@@ -156,9 +183,13 @@ a:hover,
     .header-logo {
         margin-bottom: 10px;
     }
-
+    
     .search-box {
         padding-bottom: 10px;
+    }
+
+    .header-phone {
+        float: none;
     }
 }
 
@@ -177,4 +208,8 @@ a:hover,
          font-size: 11px;
          line-height: 20px;
      }
+
+    .header-phone {
+        float:none;
+    }
 }
