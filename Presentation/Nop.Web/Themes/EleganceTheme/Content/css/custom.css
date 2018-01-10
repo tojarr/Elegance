@@ -1,0 +1,180 @@
+﻿.header-lower {
+    background-color: #000;
+    padding: 0;
+}
+
+.header-logo a img {
+    height: 80px;
+}
+
+.search-box .search-box-button, 
+.newsletter-subscribe-button,
+.registration-page .button-1, 
+.registration-result-page .button-1, 
+.login-page .button-1, 
+.password-recovery-page .button-1,
+ .account-page .button-1, 
+.return-request-page .button-1
+{
+    background-color: #648dfb;
+}
+
+.search-box .search-box-button:hover, 
+.newsletter-subscribe-button:hover,
+.registration-page .button-1:hover, 
+.registration-result-page .button-1:hover, 
+.login-page .button-1:hover, 
+.password-recovery-page .button-1:hover,
+ .account-page .button-1:hover, 
+.return-request-page .button-1:hover {
+    background-color: #8eabf9;
+}
+
+a:hover,
+.footer-block .list a:hover {
+    color: #648dfb;
+}
+
+.header-upper {
+    background-color: #dde4ff;
+}
+
+#topcartlink {
+    background-color: #dde4ff;
+}
+
+.header-links a, .header-links span {
+    line-height: 25px;
+}
+
+.header-selectors-wrapper > div {
+    line-height: 25px;
+}
+
+.top-menu>li, .top-menu>li a {
+    transition: 0.5s;
+}
+ .top-menu li:hover {
+     background-color: #dde4ff;
+    background-color: #88a1ff;
+ }
+
+ .footer {
+     background-color: #1d1d1d;
+ }
+
+.header-menu {
+    padding: 0;
+    color: white;
+    background-color: black;
+    border-top: 0;
+    margin-top: 10px;
+}
+
+.breadcrumb {
+    background-color: #94aaff;
+    color: #444;
+}
+
+.breadcrumb a:hover {
+    color: white;
+}
+
+.newsletter-email .newsletter-subscribe-button, 
+.cart-collaterals .button-2 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media(min-width:1001px) {
+    .header-selectors-wrapper {
+        margin-left: 286px;
+    }
+
+    .header-logo {
+        padding-left: 70px;
+    }
+
+    .search-box {   
+         padding-right: 20px;
+    }
+
+    .header-menu > ul > li {
+        padding: 2px 15px;
+    }
+
+    .header-menu > ul > li > a {
+        color: #dcdbdb;
+        font-weight: bold;
+    }
+
+    .header-menu > ul > li:hover > a {
+        color: #fff;
+    }
+
+    .search-box input.search-box-text, .search-box .search-box-button {
+        height: 32px;
+    }
+
+    .header-menu {
+        margin-bottom: 50px;
+    }
+
+    .block .list .active > a {
+        color: #648dfb;
+    }
+}
+
+@media(max-width:1000px) {
+    .header-selectors-wrapper > div {
+        width: 150px;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .header-selectors-wrapper {
+        padding: 4px;
+    }
+
+    .header-links-wrapper {
+        padding: 5px 0;
+    }
+
+    #topcartlink {
+        display: inline-block;
+        width: 25%;
+        margin-top: 0;
+    }
+    .header {
+        width: 100%;
+    }
+
+    .header-lower {
+        padding-top: 10px;
+    }
+
+    .header-logo {
+        margin-bottom: 10px;
+    }
+
+    .search-box {
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 560px) {
+    #topcartlink {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+     #topcartlink a {
+         padding: 0;
+     }
+
+     .header-links a, .header-links span {
+         font-size: 11px;
+         line-height: 20px;
+     }
+}
