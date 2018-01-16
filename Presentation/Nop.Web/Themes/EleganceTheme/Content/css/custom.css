@@ -94,10 +94,9 @@ a:hover,
 
 .number-call {
     display: block;
-    margin: 10px auto;
+    /*margin: auto;*/
     font-size: 16px;
     font-weight: 700;
-    /*background-color:#000;*/
     color: #dcdbdb;
     position: relative;
     top: 25px;
@@ -105,12 +104,36 @@ a:hover,
 
 a:hover span.number-call {
     display: block;
-    /*margin: 10px auto;*/
-    /*background-color: #88a1ff;*/
     color: #dcdbdb;
     position: relative;
     top: 25px;
     text-decoration: underline;
+}
+
+.item-box .add-to-wishlist-button {
+    background-color: #648dfb;
+    background-size: 20px;
+    color: white;
+    width: 169px;
+    padding-left: 27px;
+    font-size: 14px;
+    background-position: 10px;
+}
+.item-box .add-to-wishlist-button:hover {
+    background-color: #8eabf9;
+}
+
+.overview .add-to-wishlist-button, .variant-overview .add-to-wishlist-button {
+    background-size: 20px;
+    background-color: #648dfb;
+    color: white;
+    padding-left: 40px;
+    font-size: 14px;
+    background-position: 10px;
+}
+
+.overview .add-to-wishlist-button:hover, .variant-overview .add-to-wishlist-button:hover {
+    background-color: #8eabf9;
 }
 
 @media(min-width:1001px) {
